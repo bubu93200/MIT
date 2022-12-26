@@ -1,6 +1,6 @@
 # MIT
 
-At the orgine this programme was created by 
+At the origine this programme was created by 
 //=============================================================================
 //  Midi Instrument Training plugin for MuseScore
 //  Copyright (C) 2014 Jean-Baptiste Delisle
@@ -11,7 +11,9 @@ At the orgine this programme was created by
 //  as published by the Free Software Foundation and appearing in
 //  the file LICENCE.GPL
 //=============================================================================
+The original program was a plugin for musescore 2.0
 
+I modified files to improve program and to be compatible with musescore 3.6
 
 
 This (probably linux-only) plugin (for MuseScore 2.0) takes input from a MIDI instrument and colors notes while you play from blue (note and rhythm are perfect) to red (bad note or bad rhythm).
