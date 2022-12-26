@@ -5,6 +5,23 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MIT", "MIT\MIT.vcxproj", "{2F4FD3A3-1E4F-44B4-8796-D2F7DF043721}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MIT.original", "MIT.original", "{131F0C03-F8C4-450A-AEEF-C2F8FE227A6C}"
+	ProjectSection(SolutionItems) = preProject
+		MIT.qml = MIT.qml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MIT", "MIT", "{A1F264AB-ED18-4F47-BB5E-F6BB6C6FD417}"
+	ProjectSection(SolutionItems) = preProject
+		MIT.old\LICENCE.GPL = MIT.old\LICENCE.GPL
+		MIT.old\Makefile = MIT.old\Makefile
+		MIT.old\MIT = MIT.old\MIT
+		MIT.old\MIT.c = MIT.old\MIT.c
+		MIT.old\qsynthconnect.sh = MIT.old\qsynthconnect.sh
+		MIT.old\README.txt = MIT.old\README.txt
+		MIT.old\stopMIT = MIT.old\stopMIT
+		MIT.old\stopMIT.c = MIT.old\stopMIT.c
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,6 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1F264AB-ED18-4F47-BB5E-F6BB6C6FD417} = {131F0C03-F8C4-450A-AEEF-C2F8FE227A6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1F97400-7E95-4C47-BDB0-8D7B7E22B413}
