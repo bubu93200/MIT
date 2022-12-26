@@ -35,5 +35,6 @@ I extended it to support MuseScore 3.6.2
 Musescore 3.6.2 use  QT release 5.9.9
 
 On github I posted a message :
-
-
+https://github.com/musescore/MuseScore/discussions/15104
+"
+"
