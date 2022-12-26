@@ -13,13 +13,22 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MIT", "MIT", "{A1F264AB-ED18-4F47-BB5E-F6BB6C6FD417}"
 	ProjectSection(SolutionItems) = preProject
 		MIT.old\LICENCE.GPL = MIT.old\LICENCE.GPL
+		MIT.original\MIT\LICENCE.GPL = MIT.original\MIT\LICENCE.GPL
 		MIT.old\Makefile = MIT.old\Makefile
+		MIT.original\MIT\Makefile = MIT.original\MIT\Makefile
 		MIT.old\MIT = MIT.old\MIT
+		MIT.original\MIT\MIT = MIT.original\MIT\MIT
 		MIT.old\MIT.c = MIT.old\MIT.c
+		MIT.original\MIT\MIT.c = MIT.original\MIT\MIT.c
+		MIT.original\MIT.qml = MIT.original\MIT.qml
 		MIT.old\qsynthconnect.sh = MIT.old\qsynthconnect.sh
+		MIT.original\MIT\qsynthconnect.sh = MIT.original\MIT\qsynthconnect.sh
 		MIT.old\README.txt = MIT.old\README.txt
+		MIT.original\MIT\README.txt = MIT.original\MIT\README.txt
 		MIT.old\stopMIT = MIT.old\stopMIT
+		MIT.original\MIT\stopMIT = MIT.original\MIT\stopMIT
 		MIT.old\stopMIT.c = MIT.old\stopMIT.c
+		MIT.original\MIT\stopMIT.c = MIT.original\MIT\stopMIT.c
 	EndProjectSection
 EndProject
 Global
