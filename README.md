@@ -69,3 +69,10 @@ I can explain with more details how it have to run. I can also be a beta tester.
 
 Best regards.
 "
+
+
+Reference links :
+https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio/compile-1
+https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio
+https://musescore.org/en/node/269612
+https://musescore.github.io/MuseScore_PluginAPI_Docs/plugins/html/index.html
