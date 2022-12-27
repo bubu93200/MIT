@@ -14,8 +14,12 @@
 // Copyright (C) 2022 Bruno Donati
 //=============================================================================
 
-import QtQuick 2.0
-import QtQuick.Controls 2.0 // a ajouter pour avoir les commandes
+import QtQuick 2.2
+//import QtQuick.Controls 2.0
+import QtQuick.Controls 1.1 // avant il s'agissait de la version 2.0. Vérifier que cela fonctionne toujours.
+import QtQuick.Controls.Styles 1.3 // Pour ?
+import QtQuick.Layouts 1.1 // Pour ?
+import QtQuick.Dialogs 1.1 // Pour ?
 import MuseScore 3.0
 
 
