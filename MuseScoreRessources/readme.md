@@ -1,10 +1,12 @@
-# Explanations on MuseScore installation to develop a plugin
+# MuseScore for development of a plugin
+I checked all the procedure.
+
+# Explanations on MuseScore installation to develop a plugin  
 1. Download a MuseScore version on github MuseScore
 2. Extract MuseScore to a local folder (named root after)
 3. Extract dependencies.7z on root folder to access to lame (Mp3)
 
 # Install Visual Studio with good options (with VS 2022 for example)
-
 These instructions are for building MuseScore with VS2022. Any edition of this version of Visual Studio should work, including the Community edition, which is full-featured and free to use for open-source projects.
 
 Whether or not you already have Visual Studio installed, please read these instructions carefully, as you might need to install some additional components.
