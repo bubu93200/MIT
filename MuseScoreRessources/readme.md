@@ -96,12 +96,12 @@ You will need the Qt libraries, minimum version 5.15.2, to be able to build Muse
     Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.
 
 # JACK - needed even if you have a recent release of build
-https://github.com/jackaudio
-https://github.com/jackaudio/jackaudio.github.com/releases
+https://github.com/jackaudio  
+https://github.com/jackaudio/jackaudio.github.com/releases  
 NOTE: as of 1220175, 04Dec2020, JACK is no longer needed nor supported in the master branch, however it is needed if you wish to build 3.6.2 or earlier.
 
-Download the 64-bit Windows installer for the latest version of JACK.
-Install JACK in the default location.
+Download the 64-bit Windows installer for the latest version of JACK.  
+Install JACK in the default location.  
 
 # 7-Zip
 You will need a utility that handles .7z compressed files. 7-Zip is open-source, free, and quite powerful, but there are alternatives that will work as well.
