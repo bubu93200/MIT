@@ -4,8 +4,8 @@ This documentation is based on the web page : https://musescore.org/fr/handbook/
 
 # Explanations on MuseScore installation to develop a plugin  
 1. Download a MuseScore version on github MuseScore
-2. Extract MuseScore to a local folder (named root after)
-3. Extract dependencies.7z on root folder to access to lame (Mp3). (This will create a new dependencies subfolder within.)
+2. Extract MuseScore to a local folder (named MuseScoreRoot after)
+3. Extract dependencies.7z on MuseScoreRoot folder to access to lame (Mp3). (This will create a new dependencies subfolder within.)
    There are several additional dependencies:
    - LAME
    - libogg
@@ -112,7 +112,7 @@ For each of these three configurations, MuseScore can be built for either 32-bit
 
 Open Visual Studio.
 
-Go to File > Open > Folder… and open the MuseScore checkout folder.
+Go to File > Open > Folder… and open the MuseScoreRoot folder.
 
     Visual Studio will automatically begin to generate a CMake cache, which will include the Visual Studio solution and project files.
 
