@@ -10,7 +10,7 @@ These instructions are for building MuseScore with VS2022. Any edition of this v
 Whether or not you already have Visual Studio installed, please read these instructions carefully, as you might need to install some additional components.
 
     If you do not already have VS2022 installed, download Visual Studio Community https://visualstudio.microsoft.com/vs/community
-1. Use Visual Studio installer  
+## Use Visual Studio installer  
 When you run the Visual Studio installer (either for the first time, or after installing, to change options), you will get eventually to the Workloads tab. Make sure the Desktop development with C++ option is selected.!
 
 [image](https://user-images.githubusercontent.com/101040777/209845012-a41ef8d8-84f9-42b3-afbb-ad6bd26c753b.png)
@@ -34,7 +34,7 @@ Go to "Develoment Desktop in C++" and open options. Make sure the following opti
         Note that as of 484f8dc, 09Oct2020, Qt 5.15 (and a C++17 capable toolchain, which with MSVC 2019 is a given) is required for the master branch.
 
 Now, let it install (or update), grab a coffee (or a tea, a soda, a beer… whatever you prefer), and be patient.
-2. Use Visual Studio 2022
+## Use Visual Studio 2022
 Once Visual Studio has been installed, start it and link it with your Microsoft account. (If you don't have one, create one).  
 Go to Tools > Extensions > Manage Extensions.  
 On the left side of the dialog, select Online, then enter “qt” in the search box at the top right, and select and install Qt Visual Studio Tools. Although this is not strictly needed, it can be handy later.
