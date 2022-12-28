@@ -23,6 +23,118 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MIT", "MIT", "{A1F264AB-ED1
 		MIT.original\MIT\stopMIT.c = MIT.original\MIT\stopMIT.c
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MuseScoreRessources", "MuseScoreRessources", "{08356981-EF6D-4B7F-8D65-992AF9CDC0F1}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\dependencies.7z = MuseScoreRessources\dependencies.7z
+		MuseScoreRessources\readme.md = MuseScoreRessources\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependenciesContent", "DependenciesContent", "{AD5387D1-4156-4E8F-BED2-E00460D6D196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{9F9288A5-CE1D-43D8-8686-828D7309FDBE}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\.DS_Store = MuseScoreRessources\DependenciesContent\dependencies\.DS_Store
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{18E58EC8-88CF-4728-9237-C226D656EB78}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\include\portaudio.h = MuseScoreRessources\DependenciesContent\dependencies\include\portaudio.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\sndfile.h = MuseScoreRessources\DependenciesContent\dependencies\include\sndfile.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libx64", "libx64", "{FA9CECE6-5559-4FC3-9DBB-568CC9B6A6CB}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\dll2lib.bat = MuseScoreRessources\DependenciesContent\dependencies\libx64\dll2lib.bat
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\lame_enc.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\lame_enc.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\lame_enc.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\lame_enc.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libcrypto-1_1-x64.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\libcrypto-1_1-x64.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libeay32.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\libeay32.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libogg.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\libogg.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libogg.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\libogg.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libsndfile-1.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\libsndfile-1.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libsndfile-1.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\libsndfile-1.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libssl-1_1-x64.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\libssl-1_1-x64.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbis.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbis.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbis.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbis.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbisfile.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbisfile.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbisfile.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\libvorbisfile.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\portaudio.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\portaudio.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\portaudio.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\portaudio.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\ssleay32.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\ssleay32.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\WinSparkle.dll = MuseScoreRessources\DependenciesContent\dependencies\libx64\WinSparkle.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\WinSparkle.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\WinSparkle.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\zlibstat.lib = MuseScoreRessources\DependenciesContent\dependencies\libx64\zlibstat.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx64\zlibstat.pdb = MuseScoreRessources\DependenciesContent\dependencies\libx64\zlibstat.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libx86", "libx86", "{03F37737-2AA6-43E4-85B2-32560BD3C5EC}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\dll2lib.bat = MuseScoreRessources\DependenciesContent\dependencies\libx86\dll2lib.bat
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\lame_enc.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\lame_enc.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\lame_enc.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\lame_enc.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libcrypto-1_1.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\libcrypto-1_1.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libeay32.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\libeay32.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libogg.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\libogg.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libogg.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\libogg.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libsndfile-1.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\libsndfile-1.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libsndfile-1.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\libsndfile-1.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libssl-1_1.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\libssl-1_1.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbis.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbis.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbis.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbis.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbisfile.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbisfile.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbisfile.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\libvorbisfile.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\portaudio.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\portaudio.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\portaudio.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\portaudio.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\ssleay32.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\ssleay32.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\WinSparkle.dll = MuseScoreRessources\DependenciesContent\dependencies\libx86\WinSparkle.dll
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\WinSparkle.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\WinSparkle.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\zlibstat.lib = MuseScoreRessources\DependenciesContent\dependencies\libx86\zlibstat.lib
+		MuseScoreRessources\DependenciesContent\dependencies\libx86\zlibstat.pdb = MuseScoreRessources\DependenciesContent\dependencies\libx86\zlibstat.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lame", "lame", "{A4A04137-EEA0-4932-A52E-7BCC915EFA4C}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\include\lame\lame.def = MuseScoreRessources\DependenciesContent\dependencies\include\lame\lame.def
+		MuseScoreRessources\DependenciesContent\dependencies\include\lame\lame.h = MuseScoreRessources\DependenciesContent\dependencies\include\lame\lame.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\lame\libmp3lame.sym = MuseScoreRessources\DependenciesContent\dependencies\include\lame\libmp3lame.sym
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ogg", "ogg", "{3D4FE6D5-E85A-4215-8868-230B1DDC19ED}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\include\ogg\config_types.h.in = MuseScoreRessources\DependenciesContent\dependencies\include\ogg\config_types.h.in
+		MuseScoreRessources\DependenciesContent\dependencies\include\ogg\Makefile.am = MuseScoreRessources\DependenciesContent\dependencies\include\ogg\Makefile.am
+		MuseScoreRessources\DependenciesContent\dependencies\include\ogg\Makefile.in = MuseScoreRessources\DependenciesContent\dependencies\include\ogg\Makefile.in
+		MuseScoreRessources\DependenciesContent\dependencies\include\ogg\ogg.h = MuseScoreRessources\DependenciesContent\dependencies\include\ogg\ogg.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\ogg\os_types.h = MuseScoreRessources\DependenciesContent\dependencies\include\ogg\os_types.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vorbis", "vorbis", "{C205BEF9-F592-4C2D-B907-3C320E48DEAD}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\codec.h = MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\codec.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\Makefile.am = MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\Makefile.am
+		MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\Makefile.in = MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\Makefile.in
+		MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\vorbisenc.h = MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\vorbisenc.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\vorbisfile.h = MuseScoreRessources\DependenciesContent\dependencies\include\vorbis\vorbisfile.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "winsparkle", "winsparkle", "{2DFA420D-1582-49C6-8965-73E62A3CAD9E}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\include\winsparkle\winsparkle-version.h = MuseScoreRessources\DependenciesContent\dependencies\include\winsparkle\winsparkle-version.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\winsparkle\winsparkle.h = MuseScoreRessources\DependenciesContent\dependencies\include\winsparkle\winsparkle.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zlib", "zlib", "{FBF02BE5-0CA8-42D7-93EB-C6783511BBEB}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\crypt.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\crypt.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\ioapi.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\ioapi.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\iowin32.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\iowin32.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\mztools.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\mztools.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\unzip.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\unzip.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\zconf.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\zconf.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\zip.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\zip.h
+		MuseScoreRessources\DependenciesContent\dependencies\include\zlib\zlib.h = MuseScoreRessources\DependenciesContent\dependencies\include\zlib\zlib.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +157,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A1F264AB-ED18-4F47-BB5E-F6BB6C6FD417} = {131F0C03-F8C4-450A-AEEF-C2F8FE227A6C}
+		{AD5387D1-4156-4E8F-BED2-E00460D6D196} = {08356981-EF6D-4B7F-8D65-992AF9CDC0F1}
+		{9F9288A5-CE1D-43D8-8686-828D7309FDBE} = {AD5387D1-4156-4E8F-BED2-E00460D6D196}
+		{18E58EC8-88CF-4728-9237-C226D656EB78} = {9F9288A5-CE1D-43D8-8686-828D7309FDBE}
+		{FA9CECE6-5559-4FC3-9DBB-568CC9B6A6CB} = {9F9288A5-CE1D-43D8-8686-828D7309FDBE}
+		{03F37737-2AA6-43E4-85B2-32560BD3C5EC} = {9F9288A5-CE1D-43D8-8686-828D7309FDBE}
+		{A4A04137-EEA0-4932-A52E-7BCC915EFA4C} = {18E58EC8-88CF-4728-9237-C226D656EB78}
+		{3D4FE6D5-E85A-4215-8868-230B1DDC19ED} = {18E58EC8-88CF-4728-9237-C226D656EB78}
+		{C205BEF9-F592-4C2D-B907-3C320E48DEAD} = {18E58EC8-88CF-4728-9237-C226D656EB78}
+		{2DFA420D-1582-49C6-8965-73E62A3CAD9E} = {18E58EC8-88CF-4728-9237-C226D656EB78}
+		{FBF02BE5-0CA8-42D7-93EB-C6783511BBEB} = {18E58EC8-88CF-4728-9237-C226D656EB78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1F97400-7E95-4C47-BDB0-8D7B7E22B413}
