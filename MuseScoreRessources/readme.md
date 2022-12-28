@@ -132,7 +132,7 @@ In Visual Studio, a solution is a collection of projects, grouped together, and 
 
 CMake cache generation will take a while. Watch the Output window and wait for the completion message to appear: ***"CMake generation finished"***. in french ***"Fin de la génération de CMake."***
 
-If everything has worked as it should, Visual Studio will have created a Visual Studio solution file called mscore.sln inside the msvc.build_x64 subfolder of the MuseScore checkout folder, along with a collection of Visual Studio project files (*.vcxproj).
+If everything has worked as it should, Visual Studio will have created a Visual Studio solution file called mscore.sln inside the msvc.build_x64 subfolder of the MuseScoreRoot folder, along with a collection of Visual Studio project files (*.vcxproj).
 
 The recommended process for running/building is:
 - Go to File > Close Folder to close the MuseScore checkout folder.
