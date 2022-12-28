@@ -38,3 +38,5 @@ Now, let it install (or update), grab a coffee (or a tea, a soda, a beer… what
 Once Visual Studio has been installed, start it and link it with your Microsoft account. (If you don't have one, create one).  
 Go to Tools > Extensions > Manage Extensions.  
 On the left side of the dialog, select Online, then enter “qt” in the search box at the top right, and select and install Qt Visual Studio Tools. Although this is not strictly needed, it can be handy later.
+![image](https://user-images.githubusercontent.com/101040777/209846694-7e2e4f5a-2311-4676-bac1-6c18c8c5c8c3.png)
+While you are here, you can go to Tools > Options… and review and edit the editor options to your liking. (This can be done per-language, and there are tons of settings!)
