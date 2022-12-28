@@ -71,7 +71,7 @@ You will need the Qt libraries, minimum version 5.15.2, to be able to build Muse
     Tip: If you get CMake “can't find resource” failures later on, it's probably because the path of the Qt bin subfolder has not been correctly added to the PATH environment variable.
     Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.
 
-# JACK
+# JACK - not installed - not sure it runs on windows
 
 NOTE: as of 1220175, 04Dec2020, JACK is no longer needed nor supported in the master branch, however it is needed if you wish to build 3.6.2 or earlier.
 
