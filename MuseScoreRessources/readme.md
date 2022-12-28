@@ -59,6 +59,12 @@ On the left side of the dialog, select Online, then enter “qt” in the search
 ![image](https://user-images.githubusercontent.com/101040777/209846694-7e2e4f5a-2311-4676-bac1-6c18c8c5c8c3.png)  
 While you are here, you can go to Tools > Options… and review and edit the editor options to your liking. (This can be done per-language, and there are tons of settings!)
 
+## Visual Studio 2022 settings
+It's not needed but I advise you to set Visual Studio with verbose options to see where are errors if there is one (or two, or...) for the first try to build MuseScore.
+When you open Visual Studio 2022, options are :
+- Go to Tools >> Options >> Cmake >> General : activer "activer la sortie Cmake détaillée"; "activer la journalisation des diagnostics internes"; niveau de verbosivité "commentaires"; journaliser dans un fichier (to have a log file if there is an error. And There is often errors the first time...)
+- Go to Tools >> Options >> Qt >> General : check "Show debug information" = "Enable"; "verbosity of background build log" = "Diagnostic"
+
 # CMake
 
 CMake is used for generating the Visual Studio solution and project files needed for building MuseScore.
@@ -124,7 +130,7 @@ Visual Studio will automatically begin to generate a CMake cache, which will inc
 
 In Visual Studio, a solution is a collection of projects, grouped together, and sharing some basic characteristics. A project corresponds to a specific output being generated (such as an executable or a library). A project can exist by itself or within a solution, and a solution can contain one or more projects. CMake creates a single solution, with a different project for each logical component of MuseScore. The MuseScore solution contains over two dozen projects.
 
-CMake cache generation will take a while. Watch the Output window and wait for the completion message to appear: CMake generation finished.
+CMake cache generation will take a while. Watch the Output window and wait for the completion message to appear: ***"CMake generation finished"***. in french ***"Fin de la génération de CMake."***
 
 If everything has worked as it should, Visual Studio will have created a Visual Studio solution file called mscore.sln inside the msvc.build_x64 subfolder of the MuseScore checkout folder, along with a collection of Visual Studio project files (*.vcxproj).
 
