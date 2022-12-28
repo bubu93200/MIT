@@ -27,7 +27,7 @@ Go to "Develoment Desktop in C++" and open options. Make sure the following opti
             Windows SDK, depending on your OS:
                 Windows 10 SDK (10.0.20348.0 or later)
                     This version contains necessary WinRT libs
-                    If the above SDK does not show up in the VS Installer, you can find the appropriate SDK at the Microsoft SDK Archive https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/ 
+                    If the above SDK does not show up in the VS Installer, you can find the appropriate SDK at the Microsoft SDK Archive https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/  
                 Windows 11 SDK (latest)
             Uncategorized:
             GitHub Extension for Visual Studio // Option doesn't exist
@@ -38,5 +38,5 @@ Now, let it install (or update), grab a coffee (or a tea, a soda, a beer… what
 Once Visual Studio has been installed, start it and link it with your Microsoft account. (If you don't have one, create one).  
 Go to Tools > Extensions > Manage Extensions.  
 On the left side of the dialog, select Online, then enter “qt” in the search box at the top right, and select and install Qt Visual Studio Tools. Although this is not strictly needed, it can be handy later.
-![image](https://user-images.githubusercontent.com/101040777/209846694-7e2e4f5a-2311-4676-bac1-6c18c8c5c8c3.png)
+![image](https://user-images.githubusercontent.com/101040777/209846694-7e2e4f5a-2311-4676-bac1-6c18c8c5c8c3.png)  
 While you are here, you can go to Tools > Options… and review and edit the editor options to your liking. (This can be done per-language, and there are tons of settings!)
