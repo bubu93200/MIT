@@ -1,4 +1,4 @@
-# MuseScore for development of a plugin
+# MuseScore to develop a plugin
 I checked all the procedure.
 This documentation is based on the web page : https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio  
 
@@ -143,3 +143,18 @@ To do this, the recommended process for running/building is:
 
 The Solution Explorer window should now look like this:  
 ![ExplorerSolution](https://github.com/bubu93200/MIT/blob/cd5a79be6a14470cc85bfd50a128a3287ea94ee3/MuseScoreRessources/ExplorerSolution.png)
+
+Note the small red “minus sign” icons to the left of each project. Those icons mean that the project files are being excluded from the Git repository. Any directories or files with this icon are excluded and will not be included in any commits that you make.
+
+In the Solution Explorer window, select the mscore project, then go to Build > Build mscore. (Alternatively, right-click the mscore project and choose Build from the popup menu.)
+
+Building will take a while. Visual Studio will automatically build all of the other projects that mscore depends on. Watch the Output window and wait for the completion message to appear:
+========== Build: 25 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+In the Solution Explorer window, select the INSTALL project, then go to Build > Build INSTALL. (Alternatively, right-click the INSTALL project and choose Build from the popup menu.)
+
+Watch the Output window and wait for the completion message to appear:
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Note: Although building the INSTALL project is required, it need be done only once. Unless you change external resources (e.g. templates, workspaces, soundfonts, or translations) or change the build configuration, there is no need to build the INSTALL project again.
+
