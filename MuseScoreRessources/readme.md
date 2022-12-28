@@ -53,3 +53,27 @@ If you're building an ***advanced build***, you will need to download and instal
 - For advanced building : Download and install CMake https://cmake.org/download/ .
   - Add the CMake bin subfolder to the Path environment variable; typically, this will be %ProgramFiles%\CMake\bin.
 
+# Qt
+
+You will need the Qt libraries, minimum version 5.15.2, to be able to build MuseScore. For the 3.x branch Qt 5.9 is sufficient (but the others work too, but as of 583c71c, 01Dec2020, the builds don't run when build with Qt 5.15, they crash on start or when opening a pre-3.6 score... no longer the case fortunately since at least 3.6RC), for the master branch as of 484f8dc (09Oct2020) you'd need 5.15. Go for 5.15.2, the latest and last publicly available Qt 5 release (MuseScore isn't yet ready for Qt 6, or the other way round).
+
+    Go to Download Qt: Get Qt Online Installer and follow the steps to download and launch the online installer.
+    If you're not in the US or Europe, you'll probably want to launch the installer with a specific mirror, as per https://wiki.qt.io/Online_Installer_4.x#Selecting_a_mirror_for_opensour…
+    Install Qt in the default location.
+    Ensure you select custom install
+    Choose a Qt version (5.15.2, but see above) and install the following components for that version:
+        MSVC 2019 64-bit (Qt 5.15)
+        Qt WebEngine (not needed anymore for the master branch)
+        Qt Network Authorization
+        Optional, for 32-bit builds of MuseScore: MSVC 2017 32-bit (not available for Qt 5.9.9; instead, install MSVC 2015 32-bit, which will also work for VS2017 and VS2019, or MSVC 2015 32-bit for Qt 5.15)
+        Optional, to make debugging easier: Qt Debug Information Files (not available for Qt 5.9.9)
+    Add the path of the Qt bin subfolder (e.g., C:\Qt\5.15.2\msvc2019_64\bin) to the PATH environment variable.
+    Tip: If you get CMake “can't find resource” failures later on, it's probably because the path of the Qt bin subfolder has not been correctly added to the PATH environment variable.
+    Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.
+
+# JACK
+
+NOTE: as of 1220175, 04Dec2020, JACK is no longer needed nor supported in the master branch, however it is needed if you wish to build 3.6.2 or earlier.
+
+Download the 64-bit Windows installer for the latest version of JACK.
+Install JACK in the default location.
