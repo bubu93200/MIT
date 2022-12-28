@@ -142,6 +142,4 @@ To do this, the recommended process for running/building is:
 - Go to File > Open > Project/Solution…, then navigate to the msvc.build_x64 folder and open the mscore.sln Visual Studio solution file.
 
 The Solution Explorer window should now look like this:  
-![ExplorerSolution](https://user-images.githubusercontent.com/101040777/209867539-ec20756a-3287-4abc-ad5e-1f63d2ab10b7.png)
-
 ![ExplorerSolution](https://github.com/bubu93200/MIT/blob/cd5a79be6a14470cc85bfd50a128a3287ea94ee3/MuseScoreRessources/ExplorerSolution.png)
