@@ -1,4 +1,4 @@
-# MuseScore for development of a plugin
+# MuseScore to develop a plugin
 I checked all the procedure.
 This documentation is based on the web page : https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio  
 
@@ -95,8 +95,9 @@ You will need the Qt libraries, minimum version 5.15.2, to be able to build Muse
     Tip: If you get CMake “can't find resource” failures later on, it's probably because the path of the Qt bin subfolder has not been correctly added to the PATH environment variable.
     Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.
 
-# JACK - not installed - not sure it runs on windows
-
+# JACK - needed even if you have a recent release of build
+https://github.com/jackaudio
+https://github.com/jackaudio/jackaudio.github.com/releases
 NOTE: as of 1220175, 04Dec2020, JACK is no longer needed nor supported in the master branch, however it is needed if you wish to build 3.6.2 or earlier.
 
 Download the 64-bit Windows installer for the latest version of JACK.
@@ -142,6 +143,19 @@ To do this, the recommended process for running/building is:
 - Go to File > Open > Project/Solution…, then navigate to the msvc.build_x64 folder and open the mscore.sln Visual Studio solution file.
 
 The Solution Explorer window should now look like this:  
-![ExplorerSolution](https://user-images.githubusercontent.com/101040777/209867539-ec20756a-3287-4abc-ad5e-1f63d2ab10b7.png)
+![ExplorerSolution](https://github.com/bubu93200/MIT/blob/cd5a79be6a14470cc85bfd50a128a3287ea94ee3/MuseScoreRessources/ExplorerSolution.png)
 
+Note the small red “minus sign” icons to the left of each project. Those icons mean that the project files are being excluded from the Git repository. Any directories or files with this icon are excluded and will not be included in any commits that you make.
+
+In the Solution Explorer window, select the mscore project, then go to Build > Build mscore. (Alternatively, right-click the mscore project and choose Build from the popup menu.)
+
+Building will take a while. Visual Studio will automatically build all of the other projects that mscore depends on. Watch the Output window and wait for the completion message to appear:
+========== Build: 25 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+In the Solution Explorer window, select the INSTALL project, then go to Build > Build INSTALL. (Alternatively, right-click the INSTALL project and choose Build from the popup menu.)
+
+Watch the Output window and wait for the completion message to appear:
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Note: Although building the INSTALL project is required, it need be done only once. Unless you change external resources (e.g. templates, workspaces, soundfonts, or translations) or change the build configuration, there is no need to build the INSTALL project again.
 
