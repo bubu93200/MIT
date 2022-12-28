@@ -147,6 +147,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakeSettings_for_VS2022", 
 		MuseScoreRessources\CMakeSettings_for_VS2022\CMakeSettings.json = MuseScoreRessources\CMakeSettings_for_VS2022\CMakeSettings.json
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jack", "Jack", "{868CF9B2-EA57-4DFB-B7C7-51BEC278C2E5}"
+	ProjectSection(SolutionItems) = preProject
+		MuseScoreRessources\Jack\jackaudio.github.com-1.9.10_6-jack2.zip = MuseScoreRessources\Jack\jackaudio.github.com-1.9.10_6-jack2.zip
+		MuseScoreRessources\Jack\Jack_v1.9.10_64_setup.exe = MuseScoreRessources\Jack\Jack_v1.9.10_64_setup.exe
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +187,7 @@ Global
 		{FBF02BE5-0CA8-42D7-93EB-C6783511BBEB} = {18E58EC8-88CF-4728-9237-C226D656EB78}
 		{A606ECAE-CC2F-4F79-856F-DEE5362A1C03} = {08356981-EF6D-4B7F-8D65-992AF9CDC0F1}
 		{2675E203-DCFC-4524-A8ED-407ABFADBD3A} = {08356981-EF6D-4B7F-8D65-992AF9CDC0F1}
+		{868CF9B2-EA57-4DFB-B7C7-51BEC278C2E5} = {08356981-EF6D-4B7F-8D65-992AF9CDC0F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1F97400-7E95-4C47-BDB0-8D7B7E22B413}
