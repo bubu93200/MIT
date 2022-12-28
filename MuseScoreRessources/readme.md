@@ -16,6 +16,10 @@ This documentation is based on the web page : https://musescore.org/fr/handbook/
    - WinSparkle
    - zlib  
    All of these are open-source projects. Although it is possible to download them individually and build them yourself to create the required libraries, it is much easier to use prebuilt libraries and include files.
+4. Modify Cmake setting for Visual Studio 2022
+In MuseScore Root, you have a file CMakeSettings.json. Rename this in CMakeSettings.json.old and create the same file CMakeSettings.json.
+In this file replace "Visual Studio 16 2019 Win64" by "Visual Studio 17 2022 Win64".
+If you dont do that, Cmake finish with errors and impossible to build MuseScore.
 
 NOTE: as of 1220175, 04Dec2020, LAME and PortAudio are no longer needed nor supported in the master (4.0) branch. They are still needed if you wish to build 3.6.2 or earlier versions.
 
@@ -110,9 +114,10 @@ For each of these three configurations, MuseScore can be built for either 32-bit
 
 ## Standard build (RelWithDebInfo configuration for 64-bit Windows)
 
+***Reboot your system***
 Open Visual Studio 2022.
-
-Go to File > Open > Folder… and open the MuseScoreRoot folder.
+- Go to continue without code
+- Go to File > Open > Folder… and open the MuseScoreRoot folder.
 
 Visual Studio will automatically begin to generate a CMake cache, which will include the Visual Studio solution and project files.
 
