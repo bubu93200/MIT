@@ -137,8 +137,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zlib", "zlib", "{FBF02BE5-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMake", "CMake", "{A606ECAE-CC2F-4F79-856F-DEE5362A1C03}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\cmake-3.25.1-windows-i386.msi = ..\..\..\Downloads\cmake-3.25.1-windows-i386.msi
-		..\..\..\Downloads\cmake-3.25.1-windows-x86_64.msi = ..\..\..\Downloads\cmake-3.25.1-windows-x86_64.msi
+		MuseScoreRessources\CMake\cmake-3.25.1-windows-i386.msi = MuseScoreRessources\CMake\cmake-3.25.1-windows-i386.msi
+		MuseScoreRessources\CMake\cmake-3.25.1-windows-x86_64.msi = MuseScoreRessources\CMake\cmake-3.25.1-windows-x86_64.msi
 	EndProjectSection
 EndProject
 Global
