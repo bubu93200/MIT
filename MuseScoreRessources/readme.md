@@ -93,3 +93,17 @@ Install JACK in the default location.
 # 7-Zip
 You will need a utility that handles .7z compressed files. 7-Zip is open-source, free, and quite powerful, but there are alternatives that will work as well.
 
+# Building
+
+Before you can build MuseScore, you need to download and install all of the prerequisites (above).
+
+MuseScore can be built in three different configurations:
+- Release: Runs fast with all performance optimizations enabled, but very difficult to debug.
+- Debug: Very easy to debug, but runs very slow because all performance optimizations have been disabled.
+- RelWithDebInfo: A compromise between Release and Debug. Runs faster than Debug but is more difficult to debug; conversely, easier to debug than Release but runs somewhat slower.
+
+For each of these three configurations, MuseScore can be built for either 32-bit or 64-bit Windows.
+
+***A standard build of MuseScore uses the RelWithDebInfo configuration for 64-bit Windows. To build this, follow the procedure for a standard build.***  
+***To build MuseScore in other configurations, or for 32-bit Windows, follow the instructions for advanced builds.***
+
