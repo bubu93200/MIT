@@ -37,6 +37,19 @@ Now, let it install (or update), grab a coffee (or a tea, a soda, a beer… what
 ## Use Visual Studio 2022
 Once Visual Studio has been installed, start it and link it with your Microsoft account. (If you don't have one, create one).  
 Go to Tools > Extensions > Manage Extensions.  
-On the left side of the dialog, select Online, then enter “qt” in the search box at the top right, and select and install Qt Visual Studio Tools. Although this is not strictly needed, it can be handy later.
+On the left side of the dialog, select Online, then enter “qt” in the search box at the top right, and select and ***install Qt Visual Studio Tools***. Although this is not strictly needed, it can be handy later.
 ![image](https://user-images.githubusercontent.com/101040777/209846694-7e2e4f5a-2311-4676-bac1-6c18c8c5c8c3.png)  
 While you are here, you can go to Tools > Options… and review and edit the editor options to your liking. (This can be done per-language, and there are tons of settings!)
+
+# CMake
+
+CMake is used for generating the Visual Studio solution and project files needed for building MuseScore.
+
+If you're building a ***standard build***, Visual Studio will automatically use its own internal copy of CMake, so you don't need to download it separately.
+If you're building an ***advanced build***, you will need to download and install CMake.
+
+***(For information on the difference between standard and advanced builds, see building.)***
+
+- For advanced building : Download and install CMake.
+  - Add the CMake bin subfolder to the Path environment variable; typically, this will be %ProgramFiles%\CMake\bin.
+
