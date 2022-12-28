@@ -4,7 +4,19 @@ I checked all the procedure.
 # Explanations on MuseScore installation to develop a plugin  
 1. Download a MuseScore version on github MuseScore
 2. Extract MuseScore to a local folder (named root after)
-3. Extract dependencies.7z on root folder to access to lame (Mp3)
+3. Extract dependencies.7z on root folder to access to lame (Mp3). (This will create a new dependencies subfolder within.)
+   There are several additional dependencies:
+   - LAME
+   - libogg
+   - libsndfile
+   - libvorbis
+   - libvorbisfile
+   - Portaudio
+   - WinSparkle
+   - zlib  
+   All of these are open-source projects. Although it is possible to download them individually and build them yourself to create the required libraries, it is much easier to use prebuilt libraries and include files.
+
+NOTE: as of 1220175, 04Dec2020, LAME and PortAudio are no longer needed nor supported in the master (4.0) branch. They are still needed if you wish to build 3.6.2 or earlier versions.
 
 # Install Visual Studio with good options (with VS 2022 for example)
 These instructions are for building MuseScore with VS2022. Any edition of this version of Visual Studio should work, including the Community edition, which is full-featured and free to use for open-source projects.
@@ -77,3 +89,7 @@ NOTE: as of 1220175, 04Dec2020, JACK is no longer needed nor supported in the ma
 
 Download the 64-bit Windows installer for the latest version of JACK.
 Install JACK in the default location.
+
+# 7-Zip
+You will need a utility that handles .7z compressed files. 7-Zip is open-source, free, and quite powerful, but there are alternatives that will work as well.
+
