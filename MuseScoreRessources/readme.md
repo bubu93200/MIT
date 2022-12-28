@@ -110,20 +110,25 @@ For each of these three configurations, MuseScore can be built for either 32-bit
 
 ## Standard build (RelWithDebInfo configuration for 64-bit Windows)
 
-Open Visual Studio.
+Open Visual Studio 2022.
 
 Go to File > Open > Folder… and open the MuseScoreRoot folder.
 
-    Visual Studio will automatically begin to generate a CMake cache, which will include the Visual Studio solution and project files.
+Visual Studio will automatically begin to generate a CMake cache, which will include the Visual Studio solution and project files.
 
-    In Visual Studio, a solution is a collection of projects, grouped together, and sharing some basic characteristics. A project corresponds to a specific output being generated (such as an executable or a library). A project can exist by itself or within a solution, and a solution can contain one or more projects. CMake creates a single solution, with a different project for each logical component of MuseScore. The MuseScore solution contains over two dozen projects.
+In Visual Studio, a solution is a collection of projects, grouped together, and sharing some basic characteristics. A project corresponds to a specific output being generated (such as an executable or a library). A project can exist by itself or within a solution, and a solution can contain one or more projects. CMake creates a single solution, with a different project for each logical component of MuseScore. The MuseScore solution contains over two dozen projects.
 
-    CMake cache generation will take a while. Watch the Output window and wait for the completion message to appear: CMake generation finished.
+CMake cache generation will take a while. Watch the Output window and wait for the completion message to appear: CMake generation finished.
 
-    If everything has worked as it should, Visual Studio will have created a Visual Studio solution file called mscore.sln inside the msvc.build_x64 subfolder of the MuseScore checkout folder, along with a collection of Visual Studio project files (*.vcxproj).
+If everything has worked as it should, Visual Studio will have created a Visual Studio solution file called mscore.sln inside the msvc.build_x64 subfolder of the MuseScore checkout folder, along with a collection of Visual Studio project files (*.vcxproj).
 
-    The recommended process for running/building is:
-        Go to File > Close Folder to close the MuseScore checkout folder.
-        Go to File > Open > Project/Solution…, then navigate to the msvc.build_x64 folder and open the mscore.sln Visual Studio solution file.
+The recommended process for running/building is:
+- Go to File > Close Folder to close the MuseScore checkout folder.
+- Go to File > Open > Project/Solution…, then navigate to the msvc.build_x64 folder and open the mscore.sln Visual Studio solution file.
 
-    The Solution Explorer window should look like this:
+The Solution Explorer window should look like this:
+![image](https://user-images.githubusercontent.com/101040777/209860208-98fc8870-efce-46f8-acc6-617ac68960aa.png)
+
+
+
+
