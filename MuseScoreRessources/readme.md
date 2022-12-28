@@ -50,6 +50,6 @@ If you're building an ***advanced build***, you will need to download and instal
 
 ***(For information on the difference between standard and advanced builds, see building.)***
 
-- For advanced building : Download and install CMake.
+- For advanced building : Download and install CMake https://cmake.org/download/ .
   - Add the CMake bin subfolder to the Path environment variable; typically, this will be %ProgramFiles%\CMake\bin.
 
