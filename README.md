@@ -1,16 +1,16 @@
-# MIT
+# MIT - Midi Instrument Training plugin for MuseScore
 
-At the origine this programme was created by 
-//=============================================================================
-//  Midi Instrument Training plugin for MuseScore
-//  Copyright (C) 2014 Jean-Baptiste Delisle
-//  Based on seqdemo.c by Matthias Nagorni
-//
-//  This program is free software; you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License version 2
-//  as published by the Free Software Foundation and appearing in
-//  the file LICENCE.GPL
-//=============================================================================
+At the origine this programme was created by  
+///////////////////////////////////////////// 
+//  Midi Instrument Training plugin for MuseScore  
+//  Copyright (C) 2014 Jean-Baptiste Delisle  
+//  Based on seqdemo.c by Matthias Nagorni  
+//  
+//  This program is free software; you can redistribute it and/or modify  
+//  it under the terms of the GNU General Public License version 2  
+//  as published by the Free Software Foundation and appearing in  
+//  the file LICENCE.GPL  
+*******************************************************************************
 The original program was a plugin for musescore 2.0
 
 I modified files to improve program and to be compatible with musescore 3.6
@@ -71,8 +71,13 @@ Best regards.
 "
 
 
-Reference links :
+# Reference links :
 https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio/compile-1
 https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio
 https://musescore.org/en/node/269612
 https://musescore.github.io/MuseScore_PluginAPI_Docs/plugins/html/index.html
+
+
+# Building MuseScore in Qt to develop a plugin :
+Download MuseScore and extract in a directory (called after root).
+Download dependencies.zip and extract it at root : to obtain lame (Mp3).
