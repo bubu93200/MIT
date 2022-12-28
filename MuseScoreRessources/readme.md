@@ -15,3 +15,24 @@ When you run the Visual Studio installer (either for the first time, or after in
 
 [image](https://user-images.githubusercontent.com/101040777/209845012-a41ef8d8-84f9-42b3-afbb-ad6bd26c753b.png)
 
+Go to "Develoment Desktop in C++" and open options. Make sure the following options are all selected:
+
+    VS2022:
+        Code tools:
+            Git for Windows
+            Help Viewer
+        Compilers, build tools, and runtimes:
+            Tools C++ CMake tools for Windows
+            MSVC v143 - VS 2022 C++ x64/x86 build tools (or the latest version available)
+            Windows SDK, depending on your OS:
+                Windows 10 SDK (10.0.20348.0 or later)
+                    This version contains necessary WinRT libs
+                    If the above SDK does not show up in the VS Installer, you can find the appropriate SDK at the Microsoft SDK Archive https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/ 
+                Windows 11 SDK (latest)
+            Uncategorized:
+            GitHub Extension for Visual Studio // Option doesn't exist
+        Note that as of 484f8dc, 09Oct2020, Qt 5.15 (and a C++17 capable toolchain, which with MSVC 2019 is a given) is required for the master branch.
+
+Now, let it install (or update), grab a coffee (or a tea, a soda, a beer… whatever you prefer), and be patient.
+Once Visual Studio has been installed, start it and link it with your Microsoft account. (If you don't have one, create one).
+Go to Tools > Extensions > Manage Extensions. On the left side of the dialog, select Online, then enter “qt” in the search box at the top right, and select and install Qt Visual Studio Tools. Although this is not strictly needed, it can be handy later.
