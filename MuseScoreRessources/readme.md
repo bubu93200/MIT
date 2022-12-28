@@ -16,7 +16,7 @@ This documentation is based on the web page : https://musescore.org/fr/handbook/
    - WinSparkle
    - zlib  
    All of these are open-source projects. Although it is possible to download them individually and build them yourself to create the required libraries, it is much easier to use prebuilt libraries and include files.
-4. Modify Cmake setting for Visual Studio 2022
+4. ***Modify Cmake setting for Visual Studio 2022***
 In MuseScore Root, you have a file CMakeSettings.json. Rename this in CMakeSettings.json.old and create the same file CMakeSettings.json.
 In this file replace "Visual Studio 16 2019 Win64" by "Visual Studio 17 2022 Win64".
 If you dont do that, Cmake finish with errors and impossible to build MuseScore.
@@ -28,7 +28,8 @@ These instructions are for building MuseScore with VS2022. Any edition of this v
 
 Whether or not you already have Visual Studio installed, please read these instructions carefully, as you might need to install some additional components.
 
-    If you do not already have VS2022 installed, download Visual Studio Community https://visualstudio.microsoft.com/vs/community
+If you do not already have VS2022 installed, download Visual Studio Community https://visualstudio.microsoft.com/vs/community
+
 ## Use Visual Studio installer  
 When you run the Visual Studio installer (either for the first time, or after installing, to change options), you will get eventually to the Workloads tab. Make sure the Desktop development with C++ option is selected.  
 
