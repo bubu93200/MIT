@@ -84,17 +84,17 @@ You will need the Qt libraries, minimum version 5.15.2, to be able to build Muse
 
 Go to Download Qt: Get Qt Online Installer and follow the steps to download and launch the online installer.  
 If you're not in the US or Europe, you'll probably want to launch the installer with a specific mirror, as per https://wiki.qt.io/Online_Installer_4.x#Selecting_a_mirror_for_opensour…  
-Install Qt in the default location.
-Ensure you select custom install
-Choose a Qt version (5.15.2, but see above) and install the following components for that version:
+Install Qt in the default location.  
+Ensure you select custom install  
+Choose a Qt version (5.15.2, but see above) and install the following components for that version:  
         - MSVC 2019 64-bit (Qt 5.15)
         - Qt WebEngine (not needed anymore for the master branch)
         - Qt Network Authorization
         - Optional, for 32-bit builds of MuseScore: MSVC 2017 32-bit (not available for Qt 5.9.9; instead, install MSVC 2015 32-bit, which will also work for VS2017 and VS2019, or MSVC 2015 32-bit for Qt 5.15)
         - Optional, to make debugging easier: Qt Debug Information Files (not available for Qt 5.9.9)
-Add the path of the Qt bin subfolder (e.g., C:\Qt\5.15.2\msvc2019_64\bin) to the PATH environment variable.
-Tip: If you get CMake “can't find resource” failures later on, it's probably because the path of the Qt bin subfolder has not been correctly added to the PATH environment variable.
-Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.
+Add the path of the Qt bin subfolder (e.g., C:\Qt\5.15.2\msvc2019_64\bin) to the PATH environment variable.  
+Tip: If you get CMake “can't find resource” failures later on, it's probably because the path of the Qt bin subfolder has not been correctly added to the PATH environment variable.  
+Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.  
 
 # JACK - needed even if you have a recent release of build
 If you dont install Jack, you have a building error even if you use QT5.15 and MSCV 201.   
