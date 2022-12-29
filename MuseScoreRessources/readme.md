@@ -15,7 +15,8 @@ This documentation is based on the web page : https://musescore.org/fr/handbook/
    - Portaudio
    - WinSparkle
    - zlib  
-   All of these are open-source projects. Although it is possible to download them individually and build them yourself to create the required libraries, it is much easier to use prebuilt libraries and include files.
+   All of these are open-source projects. Although it is possible to download them individually and build them yourself to create the required libraries, it is much easier to use prebuilt libraries and include files.  
+   Package is available on my github  
 4. ***Modify Cmake setting for Visual Studio 2022***
 In MuseScore Root, you have a file CMakeSettings.json. Rename this in CMakeSettings.json.old and create the same file CMakeSettings.json.
 In this file replace "Visual Studio 16 2019 Win64" by "Visual Studio 17 2022 Win64".
@@ -96,8 +97,10 @@ You will need the Qt libraries, minimum version 5.15.2, to be able to build Muse
     Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.
 
 # JACK - needed even if you have a recent release of build
+If you dont install Jack, you have a building error even if you use QT5.15 and MSCV 201.   
 https://github.com/jackaudio  
-https://github.com/jackaudio/jackaudio.github.com/releases  
+https://github.com/jackaudio/jackaudio.github.com/releases 
+Package is also available on my github  
 NOTE: as of 1220175, 04Dec2020, JACK is no longer needed nor supported in the master branch, however it is needed if you wish to build 3.6.2 or earlier.
 
 Download the 64-bit Windows installer for the latest version of JACK.  
