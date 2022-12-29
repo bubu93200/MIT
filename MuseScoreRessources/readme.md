@@ -92,7 +92,8 @@ Choose a Qt version (5.15.2, but see above) and install the following components
 - Qt Network Authorization
 - Optional, for 32-bit builds of MuseScore: MSVC 2017 32-bit (not available for Qt 5.9.9; instead, install MSVC 2015 32-bit, which will also work for VS2017 and VS2019, or MSVC 2015 32-bit for Qt 5.15)
 - Optional, to make debugging easier: Qt Debug Information Files (not available for Qt 5.9.9)
-Add the path of the Qt bin subfolder (e.g., C:\Qt\5.15.2\msvc2019_64\bin) to the PATH environment variable.  
+Add the path of the Qt bin subfolder (e.g., C:\Qt\5.15.2\msvc2019_64\bin) to the PATH environment variable. 
+
 Tip: If you get CMake “can't find resource” failures later on, it's probably because the path of the Qt bin subfolder has not been correctly added to the PATH environment variable.  
 Remove the MinGW C:\Qt\5.*\mingw*\bin folder from the PATH environment variable, if present.  
 
