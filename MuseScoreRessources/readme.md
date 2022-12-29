@@ -125,6 +125,10 @@ For each of these three configurations, MuseScore can be built for either 32-bit
 ***To build MuseScore in other configurations, or for 32-bit Windows, follow the instructions for advanced builds.***
 
 ## Standard build (RelWithDebInfo configuration for 64-bit Windows)
+You will build 2 projects :
+1. mscore
+2. install
+The others are not needed.
 
 ***Reboot your system***
 Open Visual Studio 2022.
@@ -151,11 +155,13 @@ The Solution Explorer window should now look like this:
 
 Note the small red “minus sign” icons to the left of each project. Those icons mean that the project files are being excluded from the Git repository. Any directories or files with this icon are excluded and will not be included in any commits that you make.
 
+### build mscore
 In the Solution Explorer window, select the mscore project, then go to Build > Build mscore. (Alternatively, right-click the mscore project and choose Build from the popup menu.)
 
 Building will take a while. Visual Studio will automatically build all of the other projects that mscore depends on. Watch the Output window and wait for the completion message to appear:
 ========== Build: 25 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 
+### build install
 In the Solution Explorer window, select the INSTALL project, then go to Build > Build INSTALL. (Alternatively, right-click the INSTALL project and choose Build from the popup menu.)
 
 Watch the Output window and wait for the completion message to appear:
@@ -163,3 +169,4 @@ Watch the Output window and wait for the completion message to appear:
 
 Note: Although building the INSTALL project is required, it need be done only once. Unless you change external resources (e.g. templates, workspaces, soundfonts, or translations) or change the build configuration, there is no need to build the INSTALL project again.
 
+You can try to build other projects but the projects after create errors : awlplugin; inspectorplugin;PACKAGE;  
