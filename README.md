@@ -41,6 +41,8 @@ https://github.com/musescore/MuseScore/discussions/15104
       "
       Hi everyone.
       
+      ththt
+      hhftghf
       I'm learning piano at this moment. I'm also a programmer and engineer.
       
       To learn piano, a tutor mode could be very fun and useful on musescore !
