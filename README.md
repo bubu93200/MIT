@@ -42,7 +42,7 @@ https://github.com/musescore/MuseScore/discussions/15104
       Hi everyone.
       
       I'm learning piano at this moment. I'm also a programmer and engineer.
-
+      
       To learn piano, a tutor mode could be very fun and useful on musescore !
       I saw a repository running musescore 3.0.0 with a fork who exhibit a tutor panel : Musescoretutorpanel developped by tommaso Cucinotta.
       Watch these links :  
