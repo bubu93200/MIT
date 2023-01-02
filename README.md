@@ -38,9 +38,7 @@ Musescore 3.6.2 use  QT release 5.9.9
 
 On github I posted a message :  
 https://github.com/musescore/MuseScore/discussions/15104  
-      "
-      Hi everyone.
-      
+      "  
       Hi everyone.
       
       I'm learning piano at this moment. I'm also a programmer and engineer.
