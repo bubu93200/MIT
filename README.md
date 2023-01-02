@@ -38,37 +38,37 @@ Musescore 3.6.2 use  QT release 5.9.9
 
 On github I posted a message :  
 https://github.com/musescore/MuseScore/discussions/15104  
-  "
-  Hi everyone.
+      "
+      Hi everyone.
 
-  I'm learning piano at this moment. I'm also a programmer and engineer.
+      I'm learning piano at this moment. I'm also a programmer and engineer.
 
-  To learn piano, a tutor mode could be very fun and useful on musescore !
-  I saw a repository running musescore 3.0.0 with a fork who exhibit a tutor panel : Musescoretutorpanel developped by tommaso Cucinotta.
-  Watch these links :  
-  https://www.linkedin.com/pulse/musescorearduinoleds-tutorial-tommaso-cucinotta  
-  https://www.linkedin.com/pulse/pianotutor-news-smart-score-here-tommaso-cucinotta  
+      To learn piano, a tutor mode could be very fun and useful on musescore !
+      I saw a repository running musescore 3.0.0 with a fork who exhibit a tutor panel : Musescoretutorpanel developped by tommaso Cucinotta.
+      Watch these links :  
+      https://www.linkedin.com/pulse/musescorearduinoleds-tutorial-tommaso-cucinotta  
+      https://www.linkedin.com/pulse/pianotutor-news-smart-score-here-tommaso-cucinotta  
 
-  The functions which can be developped are :
+      The functions which can be developped are :
 
-  1. a waiting mode : partition waiting midi command to go to next note (waiting for you to press each keys'piano, before moving to the next one, during playback)
-  2. a mode with a synchronized playing on musescore and piano and musescore marking mistakes in red for example (simpler to develop)
-  3. All features with electronic parts (arduino or other) are not needed
-  4. have these features on windows/linux and android (to use on tablets)
-  5. have these features running with midi usb and bluetooth (on tablets) but it's not needed because we can use usb OTG on android.
+      1. a waiting mode : partition waiting midi command to go to next note (waiting for you to press each keys'piano, before moving to the next one, during playback)
+      2. a mode with a synchronized playing on musescore and piano and musescore marking mistakes in red for example (simpler to develop)
+      3. All features with electronic parts (arduino or other) are not needed
+      4. have these features on windows/linux and android (to use on tablets)
+      5. have these features running with midi usb and bluetooth (on tablets) but it's not needed because we can use usb OTG on android.
 
-  So we can have the same features as Synthesia or Piano Master
+      So we can have the same features as Synthesia or Piano Master
 
-  It's very usefull
+      It's very usefull
 
-  I understand It was on musescore 3.0.0. Why did you cancel this mode ? I think all is already developped.
-  A lot of people use a teacher on learning phase. But an "electronic/informatic" tutor is so usefull. It's also very usefull when practicing piano to learn a music sheet. I think, it can also be extended to other instruments.
-  To communicate you can also explain musescore do the same things as synthesia... and better as synthesia...
+      I understand It was on musescore 3.0.0. Why did you cancel this mode ? I think all is already developped.
+      A lot of people use a teacher on learning phase. But an "electronic/informatic" tutor is so usefull. It's also very usefull when practicing piano to learn a music sheet. I think, it can also be extended to other instruments.
+      To communicate you can also explain musescore do the same things as synthesia... and better as synthesia...
 
-  I can explain with more details how it have to run. I can also be a beta tester.
+      I can explain with more details how it have to run. I can also be a beta tester.
 
-  Best regards.
-  "
+      Best regards.
+      "
 
 
 # Reference links :
