@@ -36,7 +36,7 @@ Some settings can be changed in the plugin interface (you can also permanently c
 I extended it to support MuseScore 3.6.2
 Musescore 3.6.2 use  QT release 5.9.9
 
-On github I posted a message :
+On github I posted a message :  
 https://github.com/musescore/MuseScore/discussions/15104
 "
 Hi everyone.
@@ -45,7 +45,7 @@ I'm learning piano at this moment. I'm also a programmer and engineer.
 
 To learn piano, a tutor mode could be very fun and useful on musescore !
 I saw a repository running musescore 3.0.0 with a fork who exhibit a tutor panel : Musescoretutorpanel developped by tommaso Cucinotta.
-Watch these links :
+Watch these links :  
 https://www.linkedin.com/pulse/musescorearduinoleds-tutorial-tommaso-cucinotta  
 https://www.linkedin.com/pulse/pianotutor-news-smart-score-here-tommaso-cucinotta  
 
