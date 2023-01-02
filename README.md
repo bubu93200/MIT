@@ -46,16 +46,16 @@ I'm learning piano at this moment. I'm also a programmer and engineer.
 To learn piano, a tutor mode could be very fun and useful on musescore !
 I saw a repository running musescore 3.0.0 with a fork who exhibit a tutor panel : Musescoretutorpanel developped by tommaso Cucinotta.
 Watch these links :
-https://www.linkedin.com/pulse/musescorearduinoleds-tutorial-tommaso-cucinotta
-https://www.linkedin.com/pulse/pianotutor-news-smart-score-here-tommaso-cucinotta
+https://www.linkedin.com/pulse/musescorearduinoleds-tutorial-tommaso-cucinotta  
+https://www.linkedin.com/pulse/pianotutor-news-smart-score-here-tommaso-cucinotta  
 
 The functions which can be developped are :
 
-    a waiting mode : partition waiting midi command to go to next note (waiting for you to press each keys'piano, before moving to the next one, during playback)
-    a mode with a synchronized playing on musescore and piano and musescore marking mistakes in red for example (simpler to develop)
-    All features with electronic parts (arduino or other) are not needed
-    have these features on windows/linux and android (to use on tablets)
-    have these features running with midi usb and bluetooth (on tablets) but it's not needed because we can use usb OTG on android.
+1. a waiting mode : partition waiting midi command to go to next note (waiting for you to press each keys'piano, before moving to the next one, during playback)
+2. a mode with a synchronized playing on musescore and piano and musescore marking mistakes in red for example (simpler to develop)
+3. All features with electronic parts (arduino or other) are not needed
+4. have these features on windows/linux and android (to use on tablets)
+5. have these features running with midi usb and bluetooth (on tablets) but it's not needed because we can use usb OTG on android.
 
 So we can have the same features as Synthesia or Piano Master
 
@@ -72,10 +72,10 @@ Best regards.
 
 
 # Reference links :
-https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio/compile-1
-https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio
-https://musescore.org/en/node/269612
-https://musescore.github.io/MuseScore_PluginAPI_Docs/plugins/html/index.html
+https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio/compile-1  
+https://musescore.org/fr/handbook/developers-handbook/compilation/compile-instructions-windows-visual-studio  
+https://musescore.org/en/node/269612  
+https://musescore.github.io/MuseScore_PluginAPI_Docs/plugins/html/index.html  
 
 
 # Building MuseScore in Qt to develop a plugin :
